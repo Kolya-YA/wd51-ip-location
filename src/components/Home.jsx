@@ -1,3 +1,5 @@
+import Map from "./Map"
+
 const Home = ({ ipAndGeo }) => {
     const lines = {
         "Your IP: ": ipAndGeo?.ip,
@@ -27,9 +29,13 @@ const Home = ({ ipAndGeo }) => {
             <hr />
             {ipAndGeo.success
                 &&
+                <div className="grid grid-cols-2 gap-4">
                 <ul>
                     {Object.entries(lines).map(([key, value]) => <InfoLine key={key} text={key} data={value} />)}
                 </ul>
+
+                <Map ipAndGeo={ipAndGeo} />
+                </div>
             }
         </main>
     )
