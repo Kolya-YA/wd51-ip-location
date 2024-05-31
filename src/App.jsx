@@ -9,10 +9,10 @@ const App= () => {
   useEffect(() => {
     const fetchIpAndGeo = async() => {
       try {
-        const resp = await axios.get('http://ip-api.com/json/?fields=782335')
+        const resp = await axios.get('https://ipwho.is/')
         setIpAndGeo(resp.data)
 
-        console.log('resp: ', resp.data)
+        console.log('resp: ', resp)
       } catch (error) {
         console.error('Error: ', error)
       }
