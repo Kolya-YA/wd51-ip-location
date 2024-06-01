@@ -1,8 +1,14 @@
-# React + Vite
+# I'm watching you
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Your IP address, geo location and additional info
 
-Currently, two official plugins are available:
+> Learning project WD51 WBS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Vite
+- React
+- TailwindCSS
+- Leaflet / React Leaflet
+
+Used [IP Geolocation API](https://ipwhois.io/) and [REST COUNTRIES API](https://restcountries.com/)
+
+If you want something else, that's good.
